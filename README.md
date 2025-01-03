@@ -1,10 +1,11 @@
 # idée de métriques importantes à prendre en compte pour la prédicition de victoire
 
 # Infos importantes pour le dev 
-ID de la Ligue 1 : 53
-ID de l'OL : 9748
+ID de la Ligue 1 : 'idLeague': '4334', 'idSoccerXML': None, 'idAPIfootball': '6315'
+ID de l'OL : 'idTeam': '133713', 'idESPN': '167', 'idAPIfootball': '80'
 
-# API 
+# API en test
+https://www.thesportsdb.com/free_sports_api
 
 
 # API à regarder 
