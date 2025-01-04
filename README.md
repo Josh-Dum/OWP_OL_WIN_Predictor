@@ -4,8 +4,29 @@
 ID de la Ligue 1 : 'idLeague': '4334', 'idSoccerXML': None, 'idAPIfootball': '6315'
 ID de l'OL : 'idTeam': '133713', 'idESPN': '167', 'idAPIfootball': '80'
 
-# API en test
+# API choisie
 https://www.thesportsdb.com/free_sports_api
+
+# Explication des champs utilisés pour les donées 
+
+- idEvent : id d'un match de foot dans l'API 
+- strEvent : String qui contient le nom de l'event, dans mon cas le format sera comme ça "Nice vs Lille"
+- strSeason : String qui contient les années de début et de fin de la saison de foot sous ce format : "2023-2024"
+- intHomeScore : entier qui représente le nombre de but marquée par l'équipe qui joue à domicile
+- intAwayScore : entier qui représente le nombre de but marquée par l'équipe qui joue à l'extèrieur
+- idHomeTeam : id de la team qui joue à domicile dans l'API
+- idAwayTeam : id de la team qui joue à l'extèrieur dans l'API
+
+
+
+
+
+
+
+
+
+
+
 
 
 # API à regarder 
