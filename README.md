@@ -17,9 +17,9 @@ https://www.thesportsdb.com/free_sports_api
 - idHomeTeam : id de la team qui joue à domicile dans l'API
 - idAwayTeam : id de la team qui joue à l'extèrieur dans l'API
 
+# Endpoint memo API
 
-
-
+- */api/v1/json/3/eventsround.php?id=4334&r=16&s=2024-2025* : match in a specific round by league id/round/season. For league 1 the round correspond to the number of the day in the competition
 
 
 
@@ -33,7 +33,7 @@ https://www.thesportsdb.com/free_sports_api
 https://www.football-data.org/
 https://alexandrepa.github.io/footApi_website/?utm_source=chatgpt.com
 
-# API testés mais pas ouf 
+# API testés mais pas ouf ou payantes
 - https://www.api-football.com/ très bien mais donnée gratuites dispo uniquement entre 2020 et 2022
 - https://www.sportmonks.com/ le plan gratuit n'inclu pas la ligue 1
 - https://rapidapi.com/Creativesdev/api/free-api-live-football-data uniquement la saison 2024
