@@ -1,8 +1,25 @@
 # idée de métriques importantes à prendre en compte pour la prédicition de victoire
 
 # Infos importantes pour le dev 
+
+## ligue 1 
 ID de la Ligue 1 : 'idLeague': '4334', 'idSoccerXML': None, 'idAPIfootball': '6315'
 ID de l'OL : 'idTeam': '133713', 'idESPN': '167', 'idAPIfootball': '80'
+le round correspond au numéro de journée de ligue 1
+
+## Coupe de France
+ID de la Coupe de France : "idLeague": "4484", "idAPIfootball": "6844"
+
+Differents values of int round : 
+- 200 : final
+- 150 : Semi-Final
+- 125 : Quarter-Final
+- 16 : 8e de finale
+- 32 : 16e de finale
+- 64 : 32 ème de finale
+
+OL does not play before 32 final
+
 
 # API choisie
 https://www.thesportsdb.com/free_sports_api
@@ -20,6 +37,7 @@ https://www.thesportsdb.com/free_sports_api
 # Endpoint memo API
 
 - */api/v1/json/3/eventsround.php?id=4334&r=16&s=2024-2025* : match in a specific round by league id/round/season. For league 1 the round correspond to the number of the day in the competition
+- */api/v1/json/3/search_all_leagues.php?c=France&s=Soccer* : List all Leagues in France for football
 
 
 
