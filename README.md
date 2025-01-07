@@ -20,6 +20,25 @@ Differents values of int round :
 
 OL does not play before 32 final
 
+## Champions league
+ID of Champions league : "idLeague": "4480", "idSoccerXML": null, "idAPIfootball": "6281"
+
+Differents values of int round : 
+- 200 : final
+- 150 : Semi-Final
+- 125 : Quarter-Final
+- 16 : 8e de finale
+- 1 : Group stage - Day 1
+- 2 : Group stage - Day 2
+- 3 : Group stage - Day 3
+- 4 : Group stage - Day 4
+- 5 : Group stage - Day 5
+- 6 : Group stage - Day 6
+- 7 : Group stage - Day 7
+- 8 : Group stage - Day 8
+
+
+
 
 # API choisie
 https://www.thesportsdb.com/free_sports_api
@@ -33,6 +52,9 @@ https://www.thesportsdb.com/free_sports_api
 - intAwayScore : entier qui représente le nombre de but marquée par l'équipe qui joue à l'extèrieur
 - idHomeTeam : id de la team qui joue à domicile dans l'API
 - idAwayTeam : id de la team qui joue à l'extèrieur dans l'API
+
+need to add : 
+round for leagues
 
 # Endpoint memo API
 
