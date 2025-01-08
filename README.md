@@ -55,6 +55,8 @@ Differents values of int round :
 - 7 : Group stage - Day 7
 - 8 : Group stage - Day 8
 
+## Feature
+
 
 # API choisie
 https://www.thesportsdb.com/free_sports_api
@@ -68,9 +70,15 @@ https://www.thesportsdb.com/free_sports_api
 - intAwayScore : entier qui représente le nombre de but marquée par l'équipe qui joue à l'extèrieur
 - idHomeTeam : id de la team qui joue à domicile dans l'API
 - idAwayTeam : id de la team qui joue à l'extèrieur dans l'API
+- strTimestamp : timestamps of time of the match
+- dateEvent : date of the match
+- strTime : time of the match
+- strLeague : String that contains the name of the league
+- idLeague : id of the league
+- strCountry : String that contains the name of the country where the match is played
+- intRound : represent the different stages of a tournament or competition. Higher numbers generally correspond to the later, more important stages
+- strStatus : String qui indique si le match est terminé ou non 
 
-need to add : 
-round for leagues
 
 # Endpoint memo API
 
