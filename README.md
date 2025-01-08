@@ -37,7 +37,23 @@ Differents values of int round :
 - 7 : Group stage - Day 7
 - 8 : Group stage - Day 8
 
+## Europa league
+ID of Europa league : "idLeague": "4481", "idSoccerXML": null, "idAPIfootball": "6283"
+data start at 2009-2010 season
 
+Differents values of int round : 
+- 200 : final
+- 150 : Semi-Final
+- 125 : Quarter-Final
+- 16 : 8e de finale
+- 1 : Group stage - Day 1
+- 2 : Group stage - Day 2
+- 3 : Group stage - Day 3
+- 4 : Group stage - Day 4
+- 5 : Group stage - Day 5
+- 6 : Group stage - Day 6
+- 7 : Group stage - Day 7
+- 8 : Group stage - Day 8
 
 
 # API choisie
